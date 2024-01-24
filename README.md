@@ -1,4 +1,4 @@
-##zkStable
+## zkStable
 
 A App in which the a users is easily onboarded using a username and password 
 Once the user is signed into the his credentials is encrypted(wallet) and stored  in the IPFS 
@@ -9,7 +9,7 @@ This is a platform in which the defi exchanegs made easy by providing the end us
 
 
 
-##Blocker 
+## Blocker 
 We built a Mobile which turned out to crash today morning and we faced lot of issues and incompatability with the Zksync era with the test net versions of defi platforms made our build difficult.
 
 
