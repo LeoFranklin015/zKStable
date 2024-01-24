@@ -3,6 +3,7 @@ import { NextPage } from "next";
 import React, { useState } from "react";
 import { Login } from "../components/login";
 import { useSDK } from "@thirdweb-dev/react";
+import Dashboard from "./dashboard";
 
 const Home: NextPage = () => {
   const [isOpen, setisOpen] = useState(false);
@@ -17,7 +18,8 @@ const Home: NextPage = () => {
           <button onClick={() => setisOpen(true)}> Login </button>
         </div>
       )}
-      <Login isOpen={isOpen} onClose={() => setisOpen(false)} />
+      <Dashboard />
+      {/* <Login isOpen={isOpen} onClose={() => setisOpen(false)} /> */}
     </div>
   );
 };
